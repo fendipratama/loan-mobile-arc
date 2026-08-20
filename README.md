@@ -1,28 +1,38 @@
-# Online Loan Mobile Apps
+# PT. XYZ — Online Loan Mobile Application
 
-## Documents
+High Level Design dan Technical Design untuk aplikasi mobile pinjaman online PT. XYZ.
 
-- High Level Design
-- Architecture
-- Screen Flow
-- ERD
-- API Design
-- Screen Behavior
+Project ini merupakan rancangan arsitektur dan detail teknis berdasarkan high level user story aplikasi fintech lending, meliputi registrasi pengguna, KYC, authentication, pengajuan pinjaman, credit scoring, pembayaran cicilan, dan notification.
 
-## Folder Structure
+---
 
-...
+## 📌 Project Overview
 
-## Technology Stack
+PT. XYZ merupakan perusahaan fintech yang ingin mengembangkan mobile application untuk menyediakan layanan pinjaman online kepada pengguna.
 
-Flutter
+Fitur utama:
 
-Golang
+- User registration
+- Upload KTP dan selfie
+- KYC verification
+- Login menggunakan password
+- Biometric login
+- Dashboard pinjaman
+- Pengajuan pinjaman
+- Loan approval/rejection
+- Monthly installment
+- Outstanding debt
+- Payment history
+- Email/SMS/Push notification
+- Loan history
 
-PostgreSQL
+---
 
-Redis
+## 🎯 Business Rules
 
-Docker
+### Loan Limit
 
-Kubernetes
+Maximum loan amount:
+
+```text
+Rp12.000.000
